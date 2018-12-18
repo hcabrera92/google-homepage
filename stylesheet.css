@@ -1,66 +1,35 @@
- /*Styling Body */
- body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: white;    
-}
-
- 
-/* Styling the Navigation Bar */ 
-#nav-right {
-    list-style: none;
-    float: right;
-}
-#nav-right li{
-   /* line-height: 10px;
-    height: 10px;
-    border-bottom: 1px solid;*/
-    display: inline-block;
-    padding: 0px 10px;
-    margin: 0px;
-}
-ul{
-    list-style: none;
+/* Styling Google Fake */
+* {
     margin: 0;
     padding: 0;
+  }
 
-} 
 
-img {
+  body {
+      font-family: Arial, sans-serif;
+      color: #222;
+  }
+
+  .container {
+        width: 580px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 200px; 
+  }
+  h1#doodle {
+      width: 272px;
+      height: 92px;
+      background: url('images/googlelogo_color_272x92dp.png') top left no-repeat;
+      margin: 0 auto;  
+    }
+  ul#top_nav li  {
     
-    height: 18px;
-    width: 18px;
-    align-self: auto;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.sign-in{
-    background-color: rgb(66, 133, 244);
-    color: white;
-    width: 69.34px;
-    height: 30px;
-    border-radius: 6%;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 2px;
-}
-
-#sign-button {
-    text-align: center;
-    color: white;
-    font: 20px;
-
-
-}
-
-#container-logo {
-    width: 600px;
-    margin: 0 auto;
-    position: relative;
-    top: 198px;
-}
-.logo {
-    
-    display: block;
-    width: 272px;
-    margin: 0 auto; 
-    
+input[type="search"]{
+    width: 100%;
+    padding: 5px;
+    margin: 25px 0 18px;
 }
