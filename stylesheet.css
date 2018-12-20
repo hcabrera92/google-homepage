@@ -1,4 +1,4 @@
-/* Styling Google Fake */
+/* Styling  Fake Google */
 * {
     margin: 0;
     padding: 0;
@@ -22,14 +22,40 @@
       background: url('images/googlelogo_color_272x92dp.png') top left no-repeat;
       margin: 0 auto;  
     }
-  ul#top_nav li  {
-    
+#top_nav {
+    text-align: right;
+}    
+ul#top_nav li  {
+    margin: 5px 15px 0 0;
     display: inline-block;
-    vertical-align: middle;
+    
 }
 
 input[type="search"]{
     width: 100%;
     padding: 5px;
     margin: 25px 0 18px;
+}
+
+input[type="submit"]{
+    padding: 5px;
+    margin: 25px 0 18px;
+}
+
+ul#bot_nav_left li,
+ul#bot_nav_right li {
+
+    display: inline-block;
+
+}
+
+#bot_nav_left {
+    margin: 225px 0 0 5px;
+    padding-left: 5px;
+}
+#bot_nav_right {
+    
+    padding-right: 5px;
+    text-align: right;
+
 }
